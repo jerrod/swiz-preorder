@@ -8,7 +8,9 @@ static_sites:
   error_document: index.html
   routes:
   - path: /
-  build_command: echo "No build needed"
+  git:
+    repo_clone_url: https://github.com/dischord/swiz-preorder.dischord.com.git
+    branch: main
 domains:
 - domain: swiz-preorder.dischord.com
   type: PRIMARY
