@@ -34,6 +34,8 @@ static_sites:
   error_document: index.html
   routes:
   - path: /
+  build_command: echo "No build needed"
+  run_command: echo "No run needed"
 domains:
 - domain: ${DOMAIN}
   type: PRIMARY
